@@ -1,0 +1,36 @@
+{
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "main": "",
+  "authors": [
+    "Brunch"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1",
+    "bootstrap-sass": "^3.3.7",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "slick-carousel": "^1.6.0",
+    "fancybox": "^2.1.6"
+  },
+  "devDependencies": {
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "jquery.js",
+        "jquery-migrate.js"
+      ]
+    }
+  }
+}
