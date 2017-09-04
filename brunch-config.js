@@ -29,8 +29,7 @@ module.exports = {
             // Brunch does include all Bower components by default, we blacklist unneeded ones.
             /^bower_components\/bootstrap\/dist/,
             /^bower_components\/fancybox\/lib/,
-        ],
-        assets: ''
+        ]
     },
     plugins: {
         babel: {
